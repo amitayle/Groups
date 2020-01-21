@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-the calander/Pods-the calander-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle

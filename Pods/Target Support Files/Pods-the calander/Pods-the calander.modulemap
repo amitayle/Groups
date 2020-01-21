@@ -1,0 +1,6 @@
+framework module Pods_the_calander {
+  umbrella header "Pods-the calander-umbrella.h"
+
+  export *
+  module * { export * }
+}

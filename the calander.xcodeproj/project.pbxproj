@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4F6741B2E0EFFC5C3666AF /* Pods_the_calander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BAB3EA7B801A99D974CA8E /* Pods_the_calander.framework */; };
+		EE5FB8F223204C480097182A /* SignInIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5FB8F123204C480097182A /* SignInIViewController.swift */; };
+		EE7B598822D3D7FD00FE33BF /* popUps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7B598722D3D7FD00FE33BF /* popUps.storyboard */; };
+		EE7B598A22D3D85500FE33BF /* addEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B598922D3D85500FE33BF /* addEventViewController.swift */; };
+		EE7B598C22D3D89600FE33BF /* popUpsServies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B598B22D3D89600FE33BF /* popUpsServies.swift */; };
+		EE7B598E22D3DEA100FE33BF /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7B598D22D3DEA100FE33BF /* EventsViewController.swift */; };
+		EE85ACC0230F5F07001C0E63 /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE85ACBF230F5F07001C0E63 /* NewGroupViewController.swift */; };
+		EE87B110231EFF7A00E5B636 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87B10F231EFF7A00E5B636 /* RegisterViewController.swift */; };
+		EE88360022CABF410099DB7A /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8835FF22CABF410099DB7A /* CurrentUser.swift */; };
+		EE88360222CAC3050099DB7A /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE88360122CAC3050099DB7A /* DAO.swift */; };
+		EE957F1B22C7CACE003BD3B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F1A22C7CACE003BD3B7 /* AppDelegate.swift */; };
+		EE957F2022C7CACE003BD3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE957F1E22C7CACE003BD3B7 /* Main.storyboard */; };
+		EE957F2322C7CACE003BD3B7 /* the_calander.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE957F2122C7CACE003BD3B7 /* the_calander.xcdatamodeld */; };
+		EE957F2522C7CACF003BD3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE957F2422C7CACF003BD3B7 /* Assets.xcassets */; };
+		EE957F2822C7CACF003BD3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE957F2622C7CACF003BD3B7 /* LaunchScreen.storyboard */; };
+		EE957F3122C7D183003BD3B7 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F3022C7D183003BD3B7 /* Comment.swift */; };
+		EE957F3322C7D31B003BD3B7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F3222C7D31B003BD3B7 /* Message.swift */; };
+		EE957F3522C7D3C5003BD3B7 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F3422C7D3C5003BD3B7 /* Contact.swift */; };
+		EE957F3722C7D408003BD3B7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F3622C7D408003BD3B7 /* Event.swift */; };
+		EE957F3922C7D4AC003BD3B7 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F3822C7D4AC003BD3B7 /* Group.swift */; };
+		EE957F3E22C7E122003BD3B7 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F3D22C7E122003BD3B7 /* GroupsViewController.swift */; };
+		EE957F4022C7EAAB003BD3B7 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE957F3F22C7EAAB003BD3B7 /* GroupTableViewCell.swift */; };
+		EEB40A0122DFC123003EA4C3 /* addMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB40A0022DFC123003EA4C3 /* addMessageViewController.swift */; };
+		EED385CB22D11E3C005D02A5 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED385CA22D11E3C005D02A5 /* MessageCollectionViewCell.swift */; };
+		EED775E222CBB7660084C4DD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED775E122CBB7660084C4DD /* MainTabBarController.swift */; };
+		EED775E422CBF80A0084C4DD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED775E322CBF80A0084C4DD /* DetailsViewController.swift */; };
+		EEDC0B9722EA2352000B6BA1 /* ShowMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC0B9622EA2352000B6BA1 /* ShowMessageViewController.swift */; };
+		EEDDCCE022D1CD7B00FBACE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEDDCCDF22D1CD7B00FBACE0 /* GoogleService-Info.plist */; };
+		EEDDCCE622D234BE00FBACE0 /* BulletinBoardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDDCCE522D234BE00FBACE0 /* BulletinBoardCollectionViewController.swift */; };
+		EEFFF00522D5D3C100B8F337 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFFF00422D5D3C100B8F337 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33BAB3EA7B801A99D974CA8E /* Pods_the_calander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_the_calander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CF842DCED9307F671E099F /* Pods-the calander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the calander.debug.xcconfig"; path = "Target Support Files/Pods-the calander/Pods-the calander.debug.xcconfig"; sourceTree = "<group>"; };
+		A47F405169F9E91750CB6866 /* Pods-the calander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the calander.release.xcconfig"; path = "Target Support Files/Pods-the calander/Pods-the calander.release.xcconfig"; sourceTree = "<group>"; };
+		EE5FB8F123204C480097182A /* SignInIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInIViewController.swift; sourceTree = "<group>"; };
+		EE7B598722D3D7FD00FE33BF /* popUps.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = popUps.storyboard; sourceTree = "<group>"; };
+		EE7B598922D3D85500FE33BF /* addEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEventViewController.swift; sourceTree = "<group>"; };
+		EE7B598B22D3D89600FE33BF /* popUpsServies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpsServies.swift; sourceTree = "<group>"; };
+		EE7B598D22D3DEA100FE33BF /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		EE85ACBF230F5F07001C0E63 /* NewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		EE87B10F231EFF7A00E5B636 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EE8835FF22CABF410099DB7A /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		EE88360122CAC3050099DB7A /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		EE957F1722C7CACE003BD3B7 /* the calander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the calander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE957F1A22C7CACE003BD3B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE957F1F22C7CACE003BD3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE957F2222C7CACE003BD3B7 /* the_calander.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = the_calander.xcdatamodel; sourceTree = "<group>"; };
+		EE957F2422C7CACF003BD3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE957F2722C7CACF003BD3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE957F2922C7CACF003BD3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE957F3022C7D183003BD3B7 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		EE957F3222C7D31B003BD3B7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EE957F3422C7D3C5003BD3B7 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		EE957F3622C7D408003BD3B7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EE957F3822C7D4AC003BD3B7 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		EE957F3D22C7E122003BD3B7 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		EE957F3F22C7EAAB003BD3B7 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		EEB40A0022DFC123003EA4C3 /* addMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMessageViewController.swift; sourceTree = "<group>"; };
+		EED385CA22D11E3C005D02A5 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		EED385CE22D12049005D02A5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		EED775E122CBB7660084C4DD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		EED775E322CBF80A0084C4DD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EEDC0B9622EA2352000B6BA1 /* ShowMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMessageViewController.swift; sourceTree = "<group>"; };
+		EEDDCCDF22D1CD7B00FBACE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEDDCCE522D234BE00FBACE0 /* BulletinBoardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletinBoardCollectionViewController.swift; sourceTree = "<group>"; };
+		EEFFF00422D5D3C100B8F337 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE957F1422C7CACE003BD3B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4F6741B2E0EFFC5C3666AF /* Pods_the_calander.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74AE81E67533305008733A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33BAB3EA7B801A99D974CA8E /* Pods_the_calander.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B652F15EDD929C00996F3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42CF842DCED9307F671E099F /* Pods-the calander.debug.xcconfig */,
+				A47F405169F9E91750CB6866 /* Pods-the calander.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE7B598622D3D7E200FE33BF /* pop ups */ = {
+			isa = PBXGroup;
+			children = (
+				EE7B598722D3D7FD00FE33BF /* popUps.storyboard */,
+				EE7B598B22D3D89600FE33BF /* popUpsServies.swift */,
+				EE7B598922D3D85500FE33BF /* addEventViewController.swift */,
+				EEB40A0022DFC123003EA4C3 /* addMessageViewController.swift */,
+				EEDC0B9622EA2352000B6BA1 /* ShowMessageViewController.swift */,
+			);
+			path = "pop ups";
+			sourceTree = "<group>";
+		};
+		EE8835FC22CABAD50099DB7A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EE88360122CAC3050099DB7A /* DAO.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EE957F0E22C7CACE003BD3B7 = {
+			isa = PBXGroup;
+			children = (
+				EE957F1922C7CACE003BD3B7 /* the calander */,
+				EE957F1822C7CACE003BD3B7 /* Products */,
+				C9B652F15EDD929C00996F3E /* Pods */,
+				74AE81E67533305008733A5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE957F1822C7CACE003BD3B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE957F1722C7CACE003BD3B7 /* the calander.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE957F1922C7CACE003BD3B7 /* the calander */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFF00422D5D3C100B8F337 /* Extensions.swift */,
+				EE7B598622D3D7E200FE33BF /* pop ups */,
+				EE8835FC22CABAD50099DB7A /* data */,
+				EE957F3A22C7D901003BD3B7 /* ViewController */,
+				EED385C522D114D8005D02A5 /* cells */,
+				EE957F2F22C7D150003BD3B7 /* models */,
+				EE957F1A22C7CACE003BD3B7 /* AppDelegate.swift */,
+				EE957F1E22C7CACE003BD3B7 /* Main.storyboard */,
+				EE957F2422C7CACF003BD3B7 /* Assets.xcassets */,
+				EE957F2622C7CACF003BD3B7 /* LaunchScreen.storyboard */,
+				EE957F2922C7CACF003BD3B7 /* Info.plist */,
+				EE957F2122C7CACE003BD3B7 /* the_calander.xcdatamodeld */,
+				EEDDCCDF22D1CD7B00FBACE0 /* GoogleService-Info.plist */,
+				EED385CE22D12049005D02A5 /* MyPlayground.playground */,
+			);
+			path = "the calander";
+			sourceTree = "<group>";
+		};
+		EE957F2F22C7D150003BD3B7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EE8835FF22CABF410099DB7A /* CurrentUser.swift */,
+				EE957F3422C7D3C5003BD3B7 /* Contact.swift */,
+				EE957F3822C7D4AC003BD3B7 /* Group.swift */,
+				EE957F3622C7D408003BD3B7 /* Event.swift */,
+				EE957F3222C7D31B003BD3B7 /* Message.swift */,
+				EE957F3022C7D183003BD3B7 /* Comment.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EE957F3A22C7D901003BD3B7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE957F3D22C7E122003BD3B7 /* GroupsViewController.swift */,
+				EED775E122CBB7660084C4DD /* MainTabBarController.swift */,
+				EED775E322CBF80A0084C4DD /* DetailsViewController.swift */,
+				EEDDCCE522D234BE00FBACE0 /* BulletinBoardCollectionViewController.swift */,
+				EE7B598D22D3DEA100FE33BF /* EventsViewController.swift */,
+				EE85ACBF230F5F07001C0E63 /* NewGroupViewController.swift */,
+				EE87B10F231EFF7A00E5B636 /* RegisterViewController.swift */,
+				EE5FB8F123204C480097182A /* SignInIViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EED385C522D114D8005D02A5 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				EE957F3F22C7EAAB003BD3B7 /* GroupTableViewCell.swift */,
+				EED385CA22D11E3C005D02A5 /* MessageCollectionViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE957F1622C7CACE003BD3B7 /* the calander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE957F2C22C7CACF003BD3B7 /* Build configuration list for PBXNativeTarget "the calander" */;
+			buildPhases = (
+				D7E1FF1FCD2DE99192B7ED06 /* [CP] Check Pods Manifest.lock */,
+				EE957F1322C7CACE003BD3B7 /* Sources */,
+				EE957F1422C7CACE003BD3B7 /* Frameworks */,
+				EE957F1522C7CACE003BD3B7 /* Resources */,
+				106F3A8A903CA1719ACAA36F /* [CP] Embed Pods Frameworks */,
+				DCEA55AF261FB41A9DDF4FE8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "the calander";
+			productName = "the calander";
+			productReference = EE957F1722C7CACE003BD3B7 /* the calander.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE957F0F22C7CACE003BD3B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "amitay levi";
+				TargetAttributes = {
+					EE957F1622C7CACE003BD3B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EE957F1222C7CACE003BD3B7 /* Build configuration list for PBXProject "the calander" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE957F0E22C7CACE003BD3B7;
+			productRefGroup = EE957F1822C7CACE003BD3B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE957F1622C7CACE003BD3B7 /* the calander */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE957F1522C7CACE003BD3B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE957F2822C7CACF003BD3B7 /* LaunchScreen.storyboard in Resources */,
+				EEDDCCE022D1CD7B00FBACE0 /* GoogleService-Info.plist in Resources */,
+				EE7B598822D3D7FD00FE33BF /* popUps.storyboard in Resources */,
+				EE957F2522C7CACF003BD3B7 /* Assets.xcassets in Resources */,
+				EE957F2022C7CACE003BD3B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106F3A8A903CA1719ACAA36F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-the calander/Pods-the calander-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-the calander/Pods-the calander-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-the calander/Pods-the calander-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E1FF1FCD2DE99192B7ED06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-the calander-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCEA55AF261FB41A9DDF4FE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-the calander/Pods-the calander-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-the calander/Pods-the calander-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-the calander/Pods-the calander-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE957F1322C7CACE003BD3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFF00522D5D3C100B8F337 /* Extensions.swift in Sources */,
+				EE88360222CAC3050099DB7A /* DAO.swift in Sources */,
+				EE957F4022C7EAAB003BD3B7 /* GroupTableViewCell.swift in Sources */,
+				EE87B110231EFF7A00E5B636 /* RegisterViewController.swift in Sources */,
+				EEDDCCE622D234BE00FBACE0 /* BulletinBoardCollectionViewController.swift in Sources */,
+				EE5FB8F223204C480097182A /* SignInIViewController.swift in Sources */,
+				EE957F2322C7CACE003BD3B7 /* the_calander.xcdatamodeld in Sources */,
+				EE88360022CABF410099DB7A /* CurrentUser.swift in Sources */,
+				EE957F3522C7D3C5003BD3B7 /* Contact.swift in Sources */,
+				EE957F3322C7D31B003BD3B7 /* Message.swift in Sources */,
+				EED385CB22D11E3C005D02A5 /* MessageCollectionViewCell.swift in Sources */,
+				EE7B598C22D3D89600FE33BF /* popUpsServies.swift in Sources */,
+				EE85ACC0230F5F07001C0E63 /* NewGroupViewController.swift in Sources */,
+				EE7B598A22D3D85500FE33BF /* addEventViewController.swift in Sources */,
+				EE7B598E22D3DEA100FE33BF /* EventsViewController.swift in Sources */,
+				EED775E222CBB7660084C4DD /* MainTabBarController.swift in Sources */,
+				EEDC0B9722EA2352000B6BA1 /* ShowMessageViewController.swift in Sources */,
+				EEB40A0122DFC123003EA4C3 /* addMessageViewController.swift in Sources */,
+				EE957F1B22C7CACE003BD3B7 /* AppDelegate.swift in Sources */,
+				EE957F3E22C7E122003BD3B7 /* GroupsViewController.swift in Sources */,
+				EE957F3922C7D4AC003BD3B7 /* Group.swift in Sources */,
+				EED775E422CBF80A0084C4DD /* DetailsViewController.swift in Sources */,
+				EE957F3722C7D408003BD3B7 /* Event.swift in Sources */,
+				EE957F3122C7D183003BD3B7 /* Comment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE957F1E22C7CACE003BD3B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE957F1F22C7CACE003BD3B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE957F2622C7CACF003BD3B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE957F2722C7CACF003BD3B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE957F2A22C7CACF003BD3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE957F2B22C7CACF003BD3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE957F2D22C7CACF003BD3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CF842DCED9307F671E099F /* Pods-the calander.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "the calander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amitay.the-calander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE957F2E22C7CACF003BD3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47F405169F9E91750CB6866 /* Pods-the calander.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "the calander/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "amitay.the-calander";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE957F1222C7CACE003BD3B7 /* Build configuration list for PBXProject "the calander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE957F2A22C7CACF003BD3B7 /* Debug */,
+				EE957F2B22C7CACF003BD3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE957F2C22C7CACF003BD3B7 /* Build configuration list for PBXNativeTarget "the calander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE957F2D22C7CACF003BD3B7 /* Debug */,
+				EE957F2E22C7CACF003BD3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE957F2122C7CACE003BD3B7 /* the_calander.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE957F2222C7CACE003BD3B7 /* the_calander.xcdatamodel */,
+			);
+			currentVersion = EE957F2222C7CACE003BD3B7 /* the_calander.xcdatamodel */;
+			path = the_calander.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE957F0F22C7CACE003BD3B7 /* Project object */;
+}
